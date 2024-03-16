@@ -718,191 +718,72 @@ section{
         opacity: 1;
     }
 }
-/* For phones (up to 600px width) */
-@media only screen and (max-width: 600px) {
-    /* Additional styles for responsiveness on phones */
-    .navbar {
-        display: none; /* Hide the navbar on phones */
-    }
+/* For iPhones (up to 375px width) */
+@media only screen and (max-width: 375px) {
+    /* Additional styles for iPhones */
     .header {
         padding: 10px 5%;
     }
     .logo {
-        font-size: 25px;
+        font-size: 20px;
     }
     .home-content h3,
     .home-content h1,
     .home-content p {
-        font-size: 20px;
+        font-size: 18px;
     }
     .home-sic a {
-        margin: 20px 10px 20px 0;
+        margin: 15px 10px 15px 0;
     }
     .btn,
     .read {
-        padding: 10px 20px;
-        font-size: 14px;
+        padding: 8px 16px;
+        font-size: 12px;
     }
     .about-img img {
-        padding-bottom: 10%;
+        padding-bottom: 5%;
     }
     .about-text h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .about-text h4 {
-        font-size: 20px;
+        font-size: 16px;
     }
     .about-text p {
-        font-size: 16px;
-        margin-right: 0;
+        font-size: 14px;
     }
     .services-list div {
-        padding: 20px;
-        font-size: 12px;
-    }
-    .services-list div h2 {
-        font-size: 24px;
-    }
-    .services-list div a {
-        margin-top: 20px;
+        padding: 15px;
         font-size: 10px;
     }
+    .services-list div h2 {
+        font-size: 20px;
+    }
+    .services-list div a {
+        margin-top: 15px;
+        font-size: 8px;
+    }
     .contact-text h2 {
-        font-size: 60px;
-    }
-    .contact-text h4,
-    .contact-text p {
-        font-size: 16px;
-    }
-    .contact-form form input,
-    .contact-form textarea {
-        padding: 14px;
-        font-size: 16px;
-    }
-    .contact-form form .send {
-        padding: 12px 50px;
-        font-size: 16px;
-    }
-}
-
-/* For tablets (601px to 1024px width) */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-    /* Additional styles for responsiveness on tablets */
-    .navbar {
-        display: flex; /* Display the navbar on tablets */
-    }
-    .navbar a {
-        font-size: 16px;
-        margin-left: 15px;
-    }
-    .home-content h3,
-    .home-content h1,
-    .home-content p {
-        font-size: 22px;
-    }
-    .home-sic a {
-        margin: 30px 15px 30px 0;
-    }
-    .btn,
-    .read {
-        padding: 12px 30px;
-        font-size: 16px;
-    }
-    .about-text h2 {
         font-size: 50px;
     }
-    .about-text h4 {
-        font-size: 24px;
-    }
-    .about-text p {
-        font-size: 18px;
-    }
-    .services-list div {
-        padding: 25px;
-        font-size: 14px;
-    }
-    .services-list div h2 {
-        font-size: 28px;
-    }
-    .services-list div a {
-        margin-top: 25px;
-        font-size: 12px;
-    }
-    .contact-text h2 {
-        font-size: 70px;
-    }
     .contact-text h4,
     .contact-text p {
-        font-size: 18px;
+        font-size: 14px;
     }
     .contact-form form input,
     .contact-form textarea {
-        padding: 16px;
-        font-size: 18px;
+        padding: 12px;
+        font-size: 14px;
     }
     .contact-form form .send {
-        padding: 14px 40px;
-        font-size: 18px;
+        padding: 10px 30px;
+        font-size: 14px;
     }
 }
-
-/* For laptops and larger screens (1025px and above) */
-@media only screen and (min-width: 1025px) {
-    /* Additional styles for laptops and larger screens */
-    .navbar {
-        display: flex; /* Display the navbar on laptops and larger screens */
-    }
-    .navbar a {
-        font-size: 18px;
-        margin-left: 20px;
-    }
-    .home-content h3,
-    .home-content h1,
-    .home-content p {
-        font-size: 24px;
-    }
-    .home-sic a {
-        margin: 40px 20px 40px 0;
-    }
-    .btn,
-    .read {
-        padding: 14px 35px;
-        font-size: 18px;
-    }
-    .about-text h2 {
-        font-size: 60px;
-    }
-    .about-text h4 {
-        font-size: 28px;
-    }
-    .about-text p {
-        font-size: 20px;
-    }
-    .services-list div {
-        padding: 30px;
-        font-size: 16px;
-    }
-    .services-list div h2 {
-        font-size: 32px;
-    }
-    .services-list div a {
-        margin-top: 30px;
-        font-size: 14px;
-    }
-    .contact-text h2 {
-        font-size: 80px;
-    }
-    .contact-text h4,
-    .contact-text p {
-        font-size: 20px;
-    }
-    .contact-form form input,
-    .contact-form textarea {
-        padding: 18px;
-        font-size: 20px;
-    }
-    .contact-form form .send {
-        padding: 16px 45px;
-        font-size: 20px;
+/* For iPhones (up to 375px width) */
+@media only screen and (max-width: 375px) {
+    /* Additional styles for iPhones */
+    .Technical-bars .bar .progress-line span::after {
+        right: -10000px; /* Adjust the position of the percentage text */
     }
 }
