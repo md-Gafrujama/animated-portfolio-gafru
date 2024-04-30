@@ -1543,8 +1543,7 @@ img {
     margin: 0 auto; /* Centers the image horizontally */
     padding: 10px; /* Adds some padding around the image */
     border: 5px solid #fff; /* Adds a white border around the image */
-    margin-left: 300px;
-    margin-right: 300px;
+   
 }
 
 /* Responsive design for smaller screens */
