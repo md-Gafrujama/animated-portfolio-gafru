@@ -1508,6 +1508,7 @@ img {
     display: block; /* Ensures the image is centered */
     margin-left: 0px;
     margin-right: auto;
+    margin-top: 100px;
    }
    
    /* Responsive styles */
@@ -1521,7 +1522,7 @@ img {
    @media (max-width: 480px) {
     .profile-image {
        width: 100px; /* Even smaller size for very small devices */
-       height: 100px;
+       height: 80px;
     }
    }
    
