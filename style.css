@@ -1500,8 +1500,8 @@ img {
 /* profile-image.css */
 
 .profile-image {
-    width: 800-px; /* Adjust the width as needed */
-    height: 800px; /* Adjust the height as needed */
+    width: 700-px; /* Adjust the width as needed */
+    height: 900px; /* Adjust the height as needed */
      
     object-fit: cover; /* Ensures the image covers the area without stretching */
     margin-bottom: 20px; /* Adds some space below the image */
