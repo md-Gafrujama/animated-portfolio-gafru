@@ -1506,9 +1506,9 @@ img {
     object-fit: cover; /* Ensures the image covers the area without stretching */
     margin-bottom: 20px; /* Adds some space below the image */
     display: block; /* Ensures the image is centered */
-    margin-left: -50px;
+    margin-left: -80px;
     margin-right: auto;
-    margin-top: 10px;
+    
    }
    
    /* Responsive styles */
