@@ -1525,4 +1525,41 @@ img {
        height: 100px;
     }
    }
+   /* profile-image.css */
+
+/* Style for the profile image container */
+.home-content {
+    text-align: center; /* Center the content */
+    margin-top: 20px; /* Add some space above the image */
+}
+
+/* Style for the profile image */
+.profile-image {
+    display: block; /* Ensures the image is a block element */
+    max-width: 100%; /* Ensures the image is never wider than its container */
+    height: auto; /* Maintains the aspect ratio */
+    /* Makes the image circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    margin: 0 auto; /* Centers the image horizontally */
+    padding: 10px; /* Adds some padding around the image */
+    border: 5px solid #fff; /* Adds a white border around the image */
+    margin-left: 300px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .profile-image {
+        width: 80%; /* Adjusts the image width for smaller screens */
+        padding: 5px; /* Reduces padding for smaller screens */
+    }
+}
+
+/* Responsive design for even smaller screens */
+@media (max-width: 480px) {
+    .profile-image {
+        width: 100%; /* Makes the image full width on very small screens */
+        padding: 2px; /* Further reduces padding for very small screens */
+    }
+}
+
    
