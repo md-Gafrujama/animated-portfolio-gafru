@@ -1500,15 +1500,15 @@ img {
 /* profile-image.css */
 
 .profile-image {
-    width: 600-px; /* Adjust the width as needed */
-    height: 600px; /* Adjust the height as needed */
+    width: 800-px; /* Adjust the width as needed */
+    height: 800px; /* Adjust the height as needed */
      
     object-fit: cover; /* Ensures the image covers the area without stretching */
     margin-bottom: 20px; /* Adds some space below the image */
     display: block; /* Ensures the image is centered */
-    margin-left: 0px;
+    margin-left: -50px;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 10px;
    }
    
    /* Responsive styles */
@@ -1522,7 +1522,7 @@ img {
    @media (max-width: 480px) {
     .profile-image {
        width: 100px; /* Even smaller size for very small devices */
-       height: 80px;
+       height: 100px;
     }
    }
    
