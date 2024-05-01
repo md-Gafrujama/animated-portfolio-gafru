@@ -1562,4 +1562,8 @@ img {
     }
 }
 
-   
+   /* Example of a media query */
+@media screen and (max-width: 768px) {
+    /* CSS styles for screens up to 768px wide */
+  }
+  
