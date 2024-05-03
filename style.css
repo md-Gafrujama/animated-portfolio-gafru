@@ -1566,4 +1566,25 @@ img {
 @media screen and (max-width: 768px) {
     /* CSS styles for screens up to 768px wide */
   }
+  /* Add more CSS to style the resume link */
+.resume-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume-link:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: translateY(-2px);
+  }
+  
+  .resume-link:active {
+    background-color: #3e8e41; /* Darker green when clicked */
+    transform: translateY(0);
+  }
   
