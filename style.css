@@ -1626,3 +1626,74 @@ img {
   }
   /* Additional CSS for making the navbar more responsive */
 
+/* Navbar Container */
+.navbar-container {
+    background-color: #333; /* Background color for the navbar */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Reduced padding */
+}
+
+/* Logo */
+.logo {
+    font-size: 20px; /* Reduced font size */
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Navbar Links */
+.navbar-links {
+    display: flex;
+    gap: 10px; /* Reduced gap between links */
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px; /* Reduced font size */
+    padding: 5px 10px; /* Reduced padding */
+    border-radius: 3px; /* Slightly rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+/* Navbar Links Hover */
+.navbar-links a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Hamburger Menu Icon */
+.hamburger-menu {
+    display: none; /* Hide by default */
+    color: #fff;
+    font-size: 20px; /* Reduced font size */
+    cursor: pointer;
+}
+
+/* Responsive Navbar */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links {
+        display: none; /* Hide the links by default */
+        flex-direction: column;
+        width: 100%;
+        padding: 10px; /* Reduced padding */
+        background-color: #333; /* Background color for the collapsed menu */
+    }
+
+    .navbar-links a {
+        margin: 5px 0; /* Reduced margin */
+    }
+
+    .hamburger-menu {
+        display: block; /* Show the hamburger menu icon */
+    }
+}
