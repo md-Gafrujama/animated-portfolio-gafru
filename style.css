@@ -1587,4 +1587,41 @@ img {
     background-color: #3e8e41; /* Darker green when clicked */
     transform: translateY(0);
   }
+  /* Additional CSS for making the navbar more responsive */
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Navbar Links */
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Navbar Links Hover */
+  .navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Navbar on Small Screens */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .navbar a {
+      margin: 0;
+    }
+  }
   
