@@ -1697,37 +1697,3 @@ img {
         display: block; /* Show the hamburger menu icon */
     }
 }
-/* Container for the portfolio content */
-.portfolio-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-   }
-   
-   /* Each project section */
-   .row {
-    flex: 1 0 30%; /* This means each project section will take up at least 30% of the container's width */
-    margin: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Optional: Adds a shadow for a card-like effect */
-    transition: 0.3s; /* Optional: Adds a transition effect for hover */
-   }
-   
-   /* Adjustments for smaller screens */
-   @media (max-width: 800px) {
-    .row {
-       flex: 1 0 45%; /* On smaller screens, each project section will take up at least 45% of the container's width */
-    }
-   }
-   
-   @media (max-width: 500px) {
-    .row {
-       flex: 1 0 100%; /* On very small screens, each project section will take up the full width */
-    }
-   }
-   
-   /* Optional: Hover effect for the project sections */
-   .row:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-   }
-   
