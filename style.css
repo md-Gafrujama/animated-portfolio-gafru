@@ -1697,3 +1697,50 @@ img {
         display: block; /* Show the hamburger menu icon */
     }
 }
+/* Base styles for portfolio rows */
+.portfolio-content .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-content img {
+    flex: 1 1 100%; /* Full width on small devices */
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-content .layer {
+    flex: 1 1 100%; /* Full width on small devices */
+    padding: 10px;
+  }
+  
+  .portfolio-content h5,
+  .portfolio-content p {
+    margin: 0 0 10px 0;
+  }
+  
+  /* Responsive Media Queries */
+  @media (min-width: 600px) {
+    .portfolio-content .row {
+      align-items: center;
+    }
+  
+    .portfolio-content img,
+    .portfolio-content .layer {
+      flex: 1 1 50%; /* Split into two columns for medium and larger devices */
+    }
+  
+    .portfolio-content .layer {
+      padding: 20px;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .portfolio-content img,
+    .portfolio-content .layer {
+      flex: 1 1 33.333%; /* Three columns layout for large devices */
+    }
+  }
+  
